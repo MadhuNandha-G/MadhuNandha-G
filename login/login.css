@@ -1,0 +1,150 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins",sans-serif;
+}
+body{
+    background-image: url("../gj.jpg");
+    background-repeat: no-repeat;
+    overflow-y:hidden;
+    background-size: cover;
+}
+.nav .navbar{
+     display: flex;
+     background-color:#05343a;
+     justify-content: flex-end;
+     gap: 30px;
+     padding: 30px;
+     border-bottom: 2px solid white;
+     border-bottom-left-radius: 20px;
+     border-bottom-right-radius: 20px;
+}
+.nav ul li a{
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+}
+.nav ul li a:hover{
+    background-color: hsl(60, 1%, 32%);
+    padding: 10px;
+    border-bottom: 1px solid white;
+    border-radius: 3px;
+}
+.nav ul #a{
+    margin-right: 100px;
+}
+.nav ul {
+    list-style-type: none;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+.wrapper{
+    width: 420px;
+    background-color:rgba(255,255,255,.2);
+    color: #080808;
+    border-radius: 10px;
+    padding: 30px 40px;
+    position: relative;
+}
+.wrapper h1{
+    font-size: 36px;
+    text-align: center;
+    margin-top: 10px;
+}
+.wrapper .input-box{
+    width: 100%;
+    height: 50px;
+    margin: 30px 0;
+}
+.input-box input{
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    /* outline: none; */
+    border: 1px solid rgba(7, 6, 6, 0.2);
+    border-radius: 40px;
+    padding: 20px 45px 20px 20px;
+}
+.input-box input::placeholder{
+    color: #0e0d0d;
+}
+.wrapper .btn{
+    width: 100%;
+    height: 45px;
+    background-color: #fff;
+    border-radius: 45px;
+    box-shadow: 0 0 10px rgba(3, 78, 34, 0.1);
+    color: #0c0c0c;
+    font-weight: 600;
+}
+.wrapper .register-link{
+    font-size: 14.5px;
+    text-align: center;
+    margin-top: 20px;
+}
+.register-link p a{
+    color:hsl(39, 94%, 46%);
+    text-decoration: none;
+    font-weight: 600;
+}
+.register-link p a:hover{
+    text-decoration: underline;
+}
+#btn{
+    position: absolute;
+    right: 20px;
+    background-color: transparent;
+    font-size: 25px;
+    padding: 15px;
+    cursor: pointer;
+}
+#login-btn{
+    float: left;
+    font-size: 25px;
+    line-height: 40px;
+    background-color: transparent;
+    margin-left: 30px;
+}
+.btn {
+    cursor: pointer;
+    border: 2px solid black;
+}
+.btn:hover{
+    background-color: hsl(0, 15%, 94%);
+}
+#login{
+    margin-bottom: 10px;
+}
+.btns{
+    background-color: #fff;
+    padding: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.btns:hover{
+    background-color: hsl(0, 15%, 94%);
+}
+#google{
+    margin: 20px;
+    color: red;
+}
+#facebook{
+    margin: 20px;
+    color: blue;
+    margin-left: 40px;
+}
+.register-link p{
+    color: white;
+}
+span{
+    font-size: large;
+}
+.wrapper{
+    border: 2px solid white;
+}
